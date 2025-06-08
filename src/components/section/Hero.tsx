@@ -1,6 +1,6 @@
 import Button from '../Button';
 import Container from '../Container';
-import appleTvIcon from '../../../public/posters/apple-tv.svg';
+import appleTvIcon from '/posters/apple-tv.svg';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
