@@ -21,9 +21,9 @@ export default function App() {
         <VideoCarousel />
         <AppleTVDevices />
         <AppleTVPlusLanding />
+        <ApplePromoGrid />
+        <AppleFooter />
       </main>
-      <ApplePromoGrid />
-      <AppleFooter />
     </>
   );
 }
