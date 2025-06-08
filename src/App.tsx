@@ -7,11 +7,11 @@ import Navbar from './components/Navbar';
 import Hero from './components/section/Hero';
 import Usps from './components/section/Usps';
 import VideoCarousel from './components/section/VideoCarousel';
+import './index.css';
 
 export default function App() {
   return (
     <>
-      {/* <Header /> */}
       <Navbar />
       <main>
         <div className='bg-backgroundContrast relative z-10'>
