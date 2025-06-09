@@ -30,11 +30,9 @@
   --font-sans: sans-serif, Arial, 'SF Pro display', 'Helvetica Neue',
     'Helvetica', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
-
   --header-row-height: 44px;
-  --header-height: calc(var(var(--header-row-height) * 2));
-  --hero-height: calc(100svh-var(--header-height));
-  /* Make them available as spacing values */
+  --header-height: calc(var(--header-row-height) * 2);
+  --hero-height: calc(100svh - var(--header-height));
   --spacing-header-row: var(--header-row-height);
   --spacing-header: var(--header-height);
   --spacing-hero: var(--hero-height);
@@ -53,7 +51,7 @@
 /* @layer base {
   :root {
     --header-row-height: 44px;
-    --header-height: calc(var(var(--header-row-height) * 2));
-    --hero-height: calc(100svh-var(--header-height));
+    --header-height: calc(var(--header-row-height) * 2);
+    --hero-height: calc(100svh - var(--header-height));
   }
 } */
