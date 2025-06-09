@@ -23,6 +23,8 @@ export const movies = [
     name: 'plant',
   },
   { poster: '/poster/jane.jpg', name: 'Jane' },
+  { poster: '/poster/morning-show.jpg', name: 'morning show' },
+  { poster: '/poster/the-new-look.jpg', name: 'the new look' },
 ];
 // export const movies = [
 //   { poster: '/posters/airplane.webp', name: 'Airplane' },
